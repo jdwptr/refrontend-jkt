@@ -1,13 +1,13 @@
 import React from 'react'
 
-// import Products from '../components/products'
+import TableProd from '../pages/tableProd'
 
 class Home extends React.Component {
     render () {
         return (
             <div style={styles.container}>
-                <h1>INI HOME</h1>
-                {/* <Products/> */}
+                <h1>HOME</h1>
+                <TableProd/>
             </div>
         )
     }

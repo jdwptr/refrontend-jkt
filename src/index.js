@@ -8,6 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import createstore dari redux
 import { createStore } from 'redux'
 
+// import browser router dr reactrouterdom
+import { BrowserRouter } from 'react-router-dom'
+
 // import provide dari reactredux
 import { Provider } from 'react-redux';
 

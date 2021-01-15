@@ -1,11 +1,9 @@
 import React from 'react'
 import Axios from 'axios'
 
-import { connect } from 'react-redux'
-
 import {Switch, Route} from 'react-router-dom'
 
-import { Navigation } from './components/navbar'
+import Navigation from './components/navbar'
 
 import Home from './pages/home'
 

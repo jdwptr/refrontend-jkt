@@ -1,4 +1,5 @@
 import React from 'react'
+import Axios from 'axios'
 
 import {
     Navbar,
@@ -24,12 +25,12 @@ class Navigation extends React.Component {
 
     render() {
         return (
-            <Navbar>
-                <Navbar.Brand href="#home">INVENTORY</Navbar.Brand>
+            <Navbar bg="dark" variant="dark">
+                <Navbar.Brand href="#home">Inventory</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
-                        Total PRODUCT <a href="#login">Mark Otto</a>
+                        Total Product <a href="#login"></a>
                     </Navbar.Text>
                 </Navbar.Collapse>
             </Navbar>
