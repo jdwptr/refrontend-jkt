@@ -1,6 +1,7 @@
 import React from 'react'
 import Axios from 'axios'
 import { connect } from 'react-redux'
+import { ADMIN } from '../action'
 
 import {
     Table,
