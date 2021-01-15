@@ -6,7 +6,7 @@ class Home extends React.Component {
     render () {
         return (
             <div style={styles.container}>
-                <h1>HOME</h1>
+                {/* <h1>HOME</h1> */}
                 <TableProd/>
             </div>
         )
